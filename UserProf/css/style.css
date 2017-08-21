@@ -1,0 +1,51 @@
+#gallery{
+	height: 350px;
+}
+
+#userInfo{
+	height: 200px;
+}
+
+#userPicture{
+	height: 300px;
+	background: url(beardedJo.png);
+}
+
+#userData{
+	height: 600px;
+}
+
+#statusPosts{
+	height: 600px;
+		background-image: url('beardedJo.png');
+		
+}
+
+
+
+
+/*General Theming*/
+	.border{
+		border: 2px solid black;
+
+	}
+	.blueBorder{
+		border: 2px solid blue;
+
+	}
+
+
+	.yellowBackground{
+		border: 2px solid red;
+		background-color: yellow;
+	}
+	.blueBackground{
+		background-color: blue;
+	}
+
+	.redBackground{
+		background-color: red;
+	}
+
+	
+	

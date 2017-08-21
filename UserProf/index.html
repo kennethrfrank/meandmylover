@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		 <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+ <!--YOU'LL SEE THIS IN THE TAB OF YOUR BROWSER -->
+  <title>USER PROFILE</title>
+
+    <!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+    <!-- BOOTSTRAP: Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- BOOTSTRAP: Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <!-- BOOTSTRAP: Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- ADDED LATER: GOOGLE FONTS -->
+        <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Alice" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="./css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<!-- EXPLANATION: Bootstrap is an open-source theming aid designed by twitter so that users may more easily theme their websites. In bootstrap logic, the window is twelve columns wide. the bootstrap language has predetermined words(CSS)that I put in the classes of my elements in order to style them properly. The entire frame is within a (class = "container") then Columns(class ="col") are within a series of rows (class = "row"). You denote the column width of your element by first typing (class = "col-xs-6") 'col-xs-' is unimportant but the number that proceeds it is the width in columns of the element you would like to create. I'm placing a border tag so you can see where the elements are but I want you to style this for me. I've done the bootstrap so don't get overwhelmed but I wanted you to determine for yourself how easy it was. You can switch around the numbers in the col-xs-? to your liking but the limit for one row is twelve. -->
+
+		<!-- PAGE CONTAINER -->
+		<div class="container-full">
+<!-- ROW 1: LATEST STATUS UPDATE AND USER INTRODUCTION PLATFORM -->
+			<div class="row">
+			<!-- COLUMN ONE: 5 Wide. Image gallery -->
+				<div class="col-xs-5"> 
+					<div id ="gallery" class="yellowBackground" >
+						GALLERY
+					</div>
+				</div>
+			<!-- COLUMN TWO: 4 WIDE. User Information -->
+				<div class="col-xs-4"> 
+					<div id ="userInfo" class = "blueBackground">
+						USER INFO
+					</div>
+				</div>
+			<!-- COLUMN THREE: 3 WIDE. User Information -->
+				<div class="col-xs-3">
+					<div id ="userPicture" >
+						USER IMAGE
+					</div>	
+				</div>
+			</div>
+		<!-- 5+4+3 = TWELVE -->
+<!-- ROW 2: DATA MODULES AND STATUS UPDATES-->
+			<div class ="row">
+
+				<div class = "col-xs-7">
+					<div id ="userData" class = "redBackground">
+					USER DATA
+					</div>
+				</div>
+
+				<div class = "col-xs-5">
+					<div id ="statusPosts">
+					STATUS POSTS
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</body>
+</html>
