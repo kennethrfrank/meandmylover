@@ -1,0 +1,45 @@
+body{
+	font-size: 15px;
+}
+
+.border{
+	border: 2px solid gray;
+}
+
+.right{
+	float: right;
+}
+
+#nav{
+	height: 5%;
+	max-height: 70px;
+	min-height: 60px;
+}
+#meat{
+	height: 90%;
+}
+ .active{
+ 	height: 70%;
+ }
+ .center{
+ 	text-align: center;
+ }
+ #full{
+ 	min-height: 300px;
+ }
+#foot{
+	height: 5%;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+}
+
+.ui.icon.button.mGen{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.mobileTitle{
+	height: 100%;
+	max-height: 70px;
+}
